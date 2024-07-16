@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'AASmartSans';
+  src: url('/public/assets/fonts/AASmartSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AASmartSans';
+  src: url('/public/assets/fonts/AASmartSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: 'AASmartSans', sans-serif;
+}
+
+/* Estilos del header */
+#logo {
+  width: 200px;
+  margin: 2rem;
+}
+
+/* Estilos de la foto de perfil */
+#img_perfil {
+  width: 25%;
+  max-width: 854px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+#img_fiesta, #img_plaza {
+  width: 100%;
+  height: auto;
+}
+#img_plaza {
+  margin-top: -600px;
+  margin-bottom: 0;
+}
+#img_fiesta{
+  margin-top: 0;
+  margin-bottom: -18px;
+}
+
+/* Estilos para el formulario */
+#registration {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(120deg, rgba(0,0,255,1) 38%, rgba(120,10,100,1) 92%, rgba(185,16,16,1) 100%);
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  border-start-start-radius: 150px;
+  border-start-end-radius: 150px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.form-group1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  justify-content: center;
+}
+
+input {
+  padding: 13px 40px;
+  margin: auto;
+  border-radius: 100px;
+  width: 30%;
+  border: 0;
+}
+
+input::placeholder {
+  color: rgb(0, 0, 100);
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: 0;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  justify-content: center;
+}
+
+select {
+  padding: 10px 40px;
+  border-radius: 100px;
+  width: 20%;
+  border: 3px solid rgb(255, 255, 255);
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.options {
+  text-align: left;
+  font-size: auto;
+}
+
+button {
+  padding: 10px 40px;
+  margin: 25px;
+  border-bottom: 3px solid rgb(0, 0, 80);
+  border-right: 3px solid rgb(0, 0, 80);
+  border-top: 3px solid rgb(255, 150, 150);
+  border-left: 3px solid rgb(255, 150, 150);
+  border-end-end-radius: 100px;
+  border-start-start-radius: 100px;
+  background: linear-gradient(120deg, rgb(255, 0, 0) 0%, rgba(120,10,100,1) 10%, rgb(0, 26, 255) 100%);
+  color: white;
+  font-weight: bold;
+  width: 20%;
+  cursor: pointer;
+}
+
+/* Estilos para el footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 1px 0;
+  text-align: center;
+}
+
+.footer-bottom {
+  padding: 1px 0;
+  background-color: #0000ff;
+  margin: auto;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+
+  #logo {
+    width: 120px;
+  }
+
+  #img_perfil {
+      width: 80%;
+  }
+
+  #registration {
+      border-start-start-radius: 100px;
+      border-start-end-radius: 100px;
+  }
+
+  h2 {
+      margin: 1rem;
+  }
+
+  input {
+      margin: 10px;
+      width: 100%;
+  }
+
+  .form-group {
+      margin: 10px;
+  }
+
+  select {
+      width: 100%;
+  }
+
+  button {
+      width: max-content;
+  }
+
+  .footer-bottom {
+      font-size: 11px;
+  }
+}
