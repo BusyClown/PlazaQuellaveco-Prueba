@@ -38,10 +38,7 @@ document.getElementById('registrationForm').addEventListener(
                 alert("Error al registrar los datos");
             }
         )
+
+        this.reset();
     }
 );
-
-function reiniciar() {
-    let form = document.getElementById('registrationForm');
-    form.reset();
-}
