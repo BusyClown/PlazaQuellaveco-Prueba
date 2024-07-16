@@ -6,14 +6,14 @@
 
 @font-face {
   font-family: 'AASmartSans';
-  src: url('https://drive.google.com/uc?id=1HRJf4EH4IploL1McWtIjorla5tJVX-96') format('truetype');
+  src: url('/assets/fonts/AASmartSans-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'AASmartSans';
-  src: url('https://drive.google.com/uc?id=1YexIiDa6Nfp_55d_niw2IQLAWfX2GL30') format('truetype');
+  src: url('/assets/fonts/AASmartSans-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }

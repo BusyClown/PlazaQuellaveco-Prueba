@@ -6,20 +6,19 @@
 
 @font-face {
     font-family: 'AASmartSans';
-    src: url('https://drive.google.com/uc?id=1HRJf4EH4IploL1McWtIjorla5tJVX-96') format('truetype');
+    src: url('/public/assets/fonts/AASmartSans-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'AASmartSans';
-    src: url('https://drive.google.com/uc?id=1YexIiDa6Nfp_55d_niw2IQLAWfX2GL30') format('truetype');
+    src: url('/public/assets/fonts/AASmartSans-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 body {
-	width: 100%;
     font-family: 'AASmartSans', sans-serif;
 }
 
@@ -28,10 +27,6 @@ body {
     width: 200px;
     margin: 2rem;
   }
-
-.sticky-logo-image {
-    width: 200px;
-}
 
 /* Estilos de la foto de perfil */
 #img_perfil {
@@ -60,7 +55,7 @@ body {
     background: linear-gradient(120deg, rgba(0,0,255,1) 38%, rgba(120,10,100,1) 92%, rgba(185,16,16,1) 100%);
     width: 100%;
     padding: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
     border-start-start-radius: 150px;
     border-start-end-radius: 150px;
 }
@@ -127,7 +122,7 @@ select {
 
 button {
     padding: 10px 40px;
-    margin: 10px;
+    margin: 25px;
     border-bottom: 3px solid rgb(0, 0, 80);
     border-right: 3px solid rgb(0, 0, 80);
     border-top: 3px solid rgb(255, 150, 150);
@@ -170,10 +165,6 @@ footer {
     #logo {
       width: 120px;
     }
-
-	.sticky-logo-image {
-    width: 120px;
-	}
   
     #img_perfil {
         width: 80%;
