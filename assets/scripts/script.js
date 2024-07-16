@@ -25,6 +25,8 @@ document.getElementById('registrationForm').addEventListener(
             }
         )
 
+        this.reset()
+
         .then(
             response => {
                 console.log("Formulario enviado");
@@ -39,6 +41,6 @@ document.getElementById('registrationForm').addEventListener(
             }
         )
 
-        this.reset();
+        
     }
 );
