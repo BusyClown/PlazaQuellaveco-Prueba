@@ -40,3 +40,8 @@ document.getElementById('registrationForm').addEventListener(
         )
     }
 );
+
+function reiniciar() {
+    let form = document.getElementById('registrationForm');
+    form.reset();
+}
