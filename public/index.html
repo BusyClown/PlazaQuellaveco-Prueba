@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLaza Quellaveco</title>
+    <link rel="stylesheet" href="assets/styles/stylex.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header id="headerwrapper" class="check1 headerwrapper ">
+        <div id="logo">
+            <img class="sticky-logo-image" src="assets/images/logoAngloamerica.svg" alt="Anglo American plc-logo-img">
+        </div>
+    </header>
+
+    <main class="app">
+        <section id="img_perfil" class="img_perfil">
+            <img id="img_fiesta" src="assets/images/fiestaQuellaveco.png" alt="fiestaQuellaveco">
+            <img id="img_plaza" src="assets/images/plazaQuellaveco.png" alt="plazaQuellaveco">
+        </section>
+
+        <section id="registration" >
+            <section class="form-container">
+                <form action="#" method="post" id="registrationForm">
+                    
+                    <h2>BIENVENIDO</h2>
+
+                    <div class="form-group1">
+                        <input type="text" id="dni" name="dni" required placeholder="DNI/CARNÉ DE EXTRANJERÍA">
+                        <input type="email" id="email" name="email" required placeholder="CORREO ELECTRÓNICO">
+                    </div>
+
+                    <div class="form-group">
+                        <select id="company" name="company" required>
+
+                            <option value="" selected disabled>EMPRESA</option>
+                            
+                            <option class="options" value="sodexo">Sodexo</option>
+                            <option class="options" value="newrest">NewRest</option>
+                            <option class="options" value="disal">Disal</option>
+                            <option class="options" value="seche">Seche</option>
+
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <button type="submit">CONTINUAR</button>
+                    </div>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-bottom">
+            &copy; 2024 Nombre de la Empresa | Diseñado por Nombre del Diseñador
+        </div>
+    </footer>
+
+    <script src="assets/scripts/script.js"></script>
+    
+</body>
+</html>

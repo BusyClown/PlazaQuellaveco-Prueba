@@ -1,0 +1,263 @@
+
+
+
+/* 
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+input {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: auto;
+  border: 2px solid rgb(13, 13, 119);
+  border-radius: 5px;
+}
+
+select {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: auto;
+  border: 2px solid rgb(13, 13, 119);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: auto;
+  border: none;
+  border: 2px solid rgba(146,16,185,1);
+  border-radius: 5px;
+  cursor: pointer;
+  background: rgb(22, 22, 177);
+  color: white;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  margin-top: 2.5rem;
+}
+
+button:hover {
+  background: rgba(146,16,185,1);
+} */
+
+#registration {
+  background-color: #282828;
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  /* margin-bottom: 2rem; */
+}
+
+/* Contenedor del formulario */
+.form-container {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin: auto;
+  /* background-color: #2600d1; */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  
+}
+
+/* Título del formulario *
+.form-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333333;
+  text-align: center;
+}
+
+/* Grupo de formulario *
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Etiquetas de formulario *
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666666;
+}
+
+/* Campos de entrada y textarea *
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333333;
+  background-color: #f9f9f9;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #ff6347; /* Color del borde al enfocar *
+  outline: none;
+  background-color: #ffffff;
+}
+
+/* Botón de envío *
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff6347; /* Color del botón *
+  color: #ffffff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+  background-color: #e5533d; /* Color del botón al pasar el ratón por encima *
+}
+
+/* Media queries para diseño responsivo *
+@media (max-width: 500px) {
+  .form-container {
+    padding: 20px;
+  }
+
+  .form-container h2 {
+    font-size: 20px;
+  }
+
+  .form-group button {
+    font-size: 16px;
+  }
+}
+
+/* Estilos para el footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #282828;
+  color: #ffffff;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.footer-bottom {
+  padding: 10px 0;
+  background-color: #1c1c1c;
+  margin: auto;
+  font-size: 14px;
+}
+
+
+
+
+/* Pantallas de menos de 1280px de ancho */
+
+@media (max-width: 700px) {
+
+  #logo {
+    width: 120px;
+  }
+
+  #img_perfil {
+      width: 80%;
+  }
+
+  .footer-bottom {
+    font-size: 11px;
+  }
+
+  
+}
+
+  /* Pantallas de menos de 720px de ancho 
+  @media (max-width: 720px) {
+    #logo {
+      width: 100px;
+    }
+  }
+ 
+  Pantallas de menos de 400px de ancho (smartphones)
+  @media (max-width: 400px) {
+    #logo {
+      width: 90px;
+    }
+  }
+   */
+
+
+
+
+
+
+
+   #registration {
+    background-color: blue;
+    color: white;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 20px; */
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    /* padding: 10px; */
+    font-size: 24px;
+    text-align: center;
+}
+
+/* */
+
+.form-group1, .form-group2 {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+.form-group1{
+    display: flex;
+    justify-content: center;
+}
+
+.form-group2{
+    display: flex;
+    justify-content: center;
+}
+  
+button, input, select {
+    /* background-color: #282828; */
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: auto;
+    border: 2px solid rgb(13, 13, 119);
+    border-radius: 100px;
+    cursor: pointer;
+    justify-content: center;
+}
+  
+button {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 3, 161);
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+  
+button:hover {
+    background: rgb(3, 0, 194);
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+}
